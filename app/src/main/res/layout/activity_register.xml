@@ -40,11 +40,11 @@
             <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                app:labelText="Nama Lengkap"
+                app:labelText="Username"
                 >
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/NamaLengkap"
+                    android:id="@+id/UserName2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     />
@@ -54,12 +54,27 @@
             <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                app:labelText="Username"
+                app:labelText="Nama Lengkap"
                 android:layout_marginTop="10dp"
                 >
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/UserName"
+                    android:id="@+id/NamaLengkap2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:labelText="No telepon"
+                android:layout_marginTop="10dp"
+                >
+
+                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                    android:id="@+id/NoTelp2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     />
@@ -74,24 +89,10 @@
                 >
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/Password"
+                    android:id="@+id/Password2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    />
-
-            </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
-
-            <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                app:labelText="No Telepon"
-                android:layout_marginTop="10dp"
-                >
-
-                <studio.carbonylgroup.textfieldboxes.ExtendedEditText
-                    android:id="@+id/NoTelp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
                     />
 
             </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
@@ -102,7 +103,7 @@
                 android:padding="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="20dp"
-                android:id="@+id/btRegister1"
+                android:id="@+id/btRegister2"
                 app:nb_text="REGISTER"
                 app:nb_borderColor="#FFFFFF"
                 app:nb_borderWidth="2dp"
@@ -115,7 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="LOGIN"
-                android:id="@+id/btBackLogin"
+                android:id="@+id/btBackLogin2"
                 android:backgroundTint="@color/white"
                 android:textColor="@color/black"/>
 
