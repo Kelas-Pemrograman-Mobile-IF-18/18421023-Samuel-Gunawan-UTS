@@ -47,4 +47,12 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
     //volley
     implementation 'com.android.volley:volley:1.2.0'
+    //Picaso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //design
+    implementation 'com.android.support:design:30.0.0'
+    //round
+    implementation 'com.marozzi.roundbutton:round-button:1.0.7'
+    //dexter
+    implementation 'com.karumi:dexter:5.0.0'
 }

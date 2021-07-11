@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.samuel.roti">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".admin.HomeAdminActivity"></activity>
+        <activity android:name=".admin.Inputt"></activity>
+        <activity android:name=".admin.Profile" />
+        <activity android:name=".admin.EditKueDanHapus" />
+        <activity android:name=".admin.DataKue" />
+        <activity android:name=".pembeli.DetailPembeli" />
+        <activity android:name=".pembeli.HomePembeli" />
+        <activity android:name=".admin.HomeAdminActivity" />
         <activity android:name=".user.RegisterActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".user.LoginActivity">
